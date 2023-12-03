@@ -9,7 +9,7 @@ import { PageIntro } from '@/components/PageIntro'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
 import { TagList, TagListItem } from '@/components/TagList'
-import imageLaptop from '@/images/laptop.jpg'
+import services from '@/images/services.jpg'
 import imageMeeting from '@/images/meeting.jpg'
 import imageWhiteboard from '@/images/whiteboard.jpg'
 
@@ -86,7 +86,7 @@ function Discover() {
 
 function Build() {
   return (
-    <Section title="Build" image={{ src: imageLaptop, shape: 1 }}>
+    <Section title="Build" image={{ src: services, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           Based off of the discovery phase, we develop a comprehensive roadmap

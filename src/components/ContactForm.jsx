@@ -9,7 +9,6 @@ export function ContactForm() {
   const submitHandler = async (e) => {
     e.preventDefault()
     try {
-      console.log('Gonna do something now')
       const docRef = await addDoc(collection(db, 'bookings'), {
         name: e.target.name.value,
         email: e.target.email.value,
@@ -20,6 +19,7 @@ export function ContactForm() {
       })
 
       console.log('Document written with ID: ', docRef.id)
+      e.target.reset()
     } catch (error) {
       console.error('Error adding document: ', error)
     }

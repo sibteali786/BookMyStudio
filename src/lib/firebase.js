@@ -3,8 +3,8 @@ import { initializeApp } from 'firebase/app'
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 import { getFirestore } from 'firebase/firestore'
-import { addDoc, collection, getDocs } from 'firebase/firestore'
-// Your web app's Firebase configuration
+import { addDoc, collection, getDocs, query } from 'firebase/firestore'
+// Your web app's Firebase configurat,ion
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: 'AIzaSyCbc-bdscF63-Nd_kOdf2Dqmy6p9kHmoVI',
@@ -19,4 +19,4 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig)
 const db = getFirestore(app)
-export { db, getFirestore, addDoc, collection, getDocs }
+export { db, getFirestore, addDoc, collection, getDocs, query }

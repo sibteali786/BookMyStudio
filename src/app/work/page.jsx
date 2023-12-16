@@ -1,8 +1,5 @@
 'use client'
 
-import Image from 'next/image'
-import Link from 'next/link'
-
 import { Border } from '@/components/Border'
 import { Button } from '@/components/Button'
 import { ContactSection } from '@/components/ContactSection'

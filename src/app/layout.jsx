@@ -5,7 +5,7 @@ import '@/styles/tailwind.css'
 export const metadata = {
   title: {
     template: '%s - Studio',
-    default: 'BookMyStudio - Your Studio Booking Companion',
+    default: 'NustStudio - Your Studio Booking Companion',
   },
 }
 

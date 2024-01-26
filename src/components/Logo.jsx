@@ -1,6 +1,6 @@
 import { useId } from 'react'
 import clsx from 'clsx'
-import LogoBrand from '@/images/team/logo.svg'
+import LogoBrand from '@/images/logo.svg'
 import Image from 'next/image'
 export function Logomark({ invert = false, filled = false, ...props }) {
   let id = useId()
@@ -43,7 +43,7 @@ export function Logo({
   ...props
 }) {
   return (
-    <div className="flex flex-row items-center ">
+    <div className="flex flex-row items-center " style={{ gap: '6px' }}>
       <svg
         viewBox="0 0 35 32"
         aria-hidden="true"
@@ -58,7 +58,7 @@ export function Logo({
         />
         {/*Represents the Text*/}
       </svg>
-      <Image src={LogoBrand} alt={'logo'} unoptimized />
+      <Image src={LogoBrand} alt={'logo'} width={160} height={50} unoptimized />
     </div>
   )
 }

@@ -78,7 +78,7 @@ export default async function Home() {
             Your Studio Booking Companion
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-            BOOKMYSTUDIO simplifies studio bookings. Manage TV operations,
+            NUSTUDIO simplifies studio bookings. Manage TV operations,
             student recordings, and campus coverages hassle-free. No more
             conflicts or rushes. Our calendar brings clarity, empowering you to
             control schedules effortlessly. Join us for a revolutionary studio

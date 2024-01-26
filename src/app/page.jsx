@@ -75,10 +75,10 @@ export default async function Home() {
       <Container className="mt-24 sm:mt-32 md:mt-56">
         <FadeIn className="max-w-4xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-            Your Studio Booking Companion
+            Nustians only Booking Companion
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-            NUSTUDIO simplifies studio bookings. Manage TV operations,
+            NuStudio simplifies studio bookings. Manage TV operations,
             student recordings, and campus coverages hassle-free. No more
             conflicts or rushes. Our calendar brings clarity, empowering you to
             control schedules effortlessly. Join us for a revolutionary studio
@@ -86,7 +86,7 @@ export default async function Home() {
           </p>
           <a
             href="/contact"
-            className="mt-10 flex w-40 cursor-pointer flex-row justify-evenly items-center rounded-md bg-neutral-950 py-2 text-white hover:bg-neutral-800"
+            className="mt-10 flex w-40 cursor-pointer flex-row justify-evenly items-center rounded-md bg-[#F2A202] py-2 text-white hover:bg-[#F2A202DF]"
           >
             Book Now
             <ArrowForwardIosIcon fontSize="small"/>
